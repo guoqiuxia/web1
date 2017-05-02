@@ -1,0 +1,24 @@
+.a2{
+	font-size: 14px;
+}
+.a3 a:hover{
+	color: #b9f605;
+	text-decoration: none;
+}
+.ul1{
+	list-style-type: disc;
+}
+.ul2{
+	list-style-image: url(../images/list.jpg);
+}
+.body{
+	background-image: url(../images/bg.gif);
+	height: 250px;
+	width: 1300px;
+}
+.body1{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	height: 250px;
+	background-position: center;
+}
