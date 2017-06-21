@@ -1,0 +1,273 @@
+body{
+	font-size: 14px;
+}
+a:link{
+	text-decoration: none;
+}
+#header{
+	background-image: url(../images/banner4.jpg);
+	width: 1250px;
+	height: 300px;
+	margin: auto;
+}
+#header_logo{
+	float: right;
+}
+#header_list{
+	width: 600px;
+	height: 40px;
+	position: relative;
+	left: 300px;
+	top: 20px;
+}
+#header_list ul li{
+	line-height: 40px;
+	list-style: none;
+	float: left;	
+}
+#header_list a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #5F9EA0;
+	display: block;
+}
+#header_list a:hover{
+	text-decoration: none;
+	background-color: #87CEFA;
+	color: #FF8C00;
+}
+#content{
+	margin: auto;
+	background-color: #E0FFFF;
+	width: 1250px;
+	height: 700px;
+}
+#content_denglu{
+	float: left;
+	width: 250px;
+	height: 300px;
+	background-image: url(../images/denglu8.png);
+	text-align: center;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+#content_denglu span{
+	font-weight: bold;
+}
+.content_denglu_window{
+	font-size: 20px;
+	font-weight: bold;
+	color: #5F9EA0;
+}
+.content_denglu_submit{
+	background-color: #FFFACD;
+	border: 2px solid #D3D3D3;
+	width: 50px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #6495ED;
+}
+.content_denglu_wangji{
+	color: #FF0000;
+	font-weight: bold;
+}
+.content_denglu_weixin{
+	background-color: #00BFFF;
+	border: 2px solid #D3D3D3;
+	height:25px;
+}
+.content_sousuo{
+	float: left;
+	position: relative;
+	left: 300px;
+	top: 10px; 
+}
+.content_sousuo_wenben{
+	width: 500px;
+	height: 30px;
+	border: 1px solid #32CD32;
+}
+.content_sousuo_sousuo{
+	width: 50px;
+	height: 30px;
+	background-color: #32CD32;
+	border: 2px solid #D3D3D3;
+	font-size: 14px;
+	font-weight:bold;
+}
+.content_zhuti_hot{
+	width: 400px;
+	height: 230px;
+	float: left;
+	background-image: url(../images/wenben3.png);
+	position: relative;
+	left: -500px;
+	top: 100px;
+
+}
+.content_zhuti_hot span{
+	font-size: 20px;
+	font-weight: bold;
+	color: #32CD32;
+	position: relative;
+	left: 315px;
+	top: -25px;
+}
+.content_zhuti_hot ul{
+	list-style: none;
+	font-size: 16px;
+	line-height: 30px;
+	position: relative;
+	top: -20px;
+}
+.content_zhuti_hot a{
+	color: #4682B4;
+}
+.content_zhuti_hot a:hover{
+	color: #DAA520;
+	text-decoration:underline;
+}
+#content_zhuti_hot_a a{
+	color: #8B0000;
+	font-size: 16px;
+	float: right;
+	position: relative;
+	left: -20px;
+}
+#content_zhuti_hot_a a:hover{
+	text-decoration: underline;
+	color: #DAA520;
+}
+.content_zhuti_near{
+	width: 405px;
+	height: 230px;
+	float: left;
+	background-image: url(../images/wenben3.png);
+	background-repeat: no-repeat;
+	position: relative;
+	left: 500px;
+	top: -120px;
+}
+.content_zhuti_near span{
+	font-size: 20px;
+	font-weight: bold;
+	color: #32CD32;
+	position: relative;
+	left: 320px;
+	top: -25px;
+}
+.content_zhuti_near ul{
+	list-style: none;
+	font-size: 16px;
+	line-height: 30px;
+	position:relative;
+	left: -25px;
+	top: -20px;
+}
+.content_zhuti_near a{
+	color: #4682B4;
+}
+.content_zhuti_near a:hover{
+	color: #DAA520;
+	text-decoration:underline;
+}
+#content_zhuti_near_a a{
+	color: #8B0000;
+	font-size: 16px;
+	float: right;
+}
+#content_zhuti_near_a a:hover{
+	text-decoration: underline;
+	color: #DAA520;
+}
+.content_botton{
+	width: 1250px;
+	height: 400px;
+}
+.content_botton_top_left{
+	background-image: url(../images/beijing5.png);
+	width: 406px;
+	height: 80px;
+	float: left;
+	position: relative;
+	left: -400px;
+	top: 130px;
+}
+.content_botton_a a{
+	opacity: 1;
+}
+.content_botton_a a:hover{
+	opacity: 0.7;
+}
+.content_botton_top{
+	font-size: 22px;
+	font-weight: bold;
+	color: #32CD32;
+	position: relative;
+	left: -120px;
+	top: 20px;
+}
+.content_botton_top_img{
+	float: left;
+	position: relative;
+	left: -380px;
+	top: 165px;
+}
+.content_botton_top_img1{
+	float: left;
+	position: relative;
+	left: -350px;
+	top: 165px;
+}
+.content_botton_top_img2{
+	float: left;
+	position: relative;
+	left: 80px;
+	top: 33px;
+}
+.content_botton_top_img3{
+	float: left;
+	position: relative;
+	top: 35px;
+	left: 115px;
+}
+.content_botton_top_right{
+	background-image: url(../images/beijing6.png);
+	width: 406px;
+	height: 80px;
+	float: left;
+	position: relative;
+	top: -210px;
+	left: 810px;
+}
+.content_botton_content{
+	width: 120px;
+	float: right;
+	position: relative;
+	top: 80px;
+	left: -30px;
+}
+.content_botton_content a{
+	color: #8B0000;
+	font-size: 16px;	
+}
+.content_botton_content a:hover{
+	text-decoration: underline;
+	color: #DAA520;
+}
+#footer{
+	margin: auto;
+	width: 1250px;
+	height: 120px;
+	background-color: #FAF0E6;
+}
+.footer_ul{
+	list-style: none;
+	text-align: center;
+}
+.footer_ul a{
+	color: #D2691E;
+}

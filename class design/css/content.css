@@ -1,0 +1,208 @@
+body{
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+	color: #8B0000;
+}
+#header{
+	background-image: url(../images/banner4.jpg);
+	width: 1250px;
+	height: 300px;
+	margin: auto;
+}
+#header_logo{
+	float: right;
+}
+#header_list{
+	width: 600px;
+	height: 40px;
+	position: relative;
+	left: 300px;
+	top: 20px;
+}
+#header_list ul li{
+	line-height: 40px;
+	list-style: none;
+	float: left;	
+}
+#header_list a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #5F9EA0;
+	display: block;
+}
+#header_list a:hover{
+	text-decoration: none;
+	background-color: #87CEFA;
+	color: #FF8C00;
+}
+#content{
+	margin: auto;
+	background-color: #E0FFFF;
+	width: 1250px;
+	height: 1400px;
+}
+.content_top{
+	width: 1000px;
+	height: 30px;
+}
+.content_bread{
+	height: 20px;
+	width: 200px;
+	padding: 20px;
+	float: left;
+}
+.content_sousuo{
+	float: right;
+	position: relative;
+	top: 20px;
+	left: 200px;
+}
+.content_sousuo_wenben{
+	width: 500px;
+	height: 30px;
+	border: 1px solid #32CD32;
+}
+.content_sousuo_sousuo{
+	width: 50px;
+	height: 30px;
+	background-color: #32CD32;
+	border: 2px solid #D3D3D3;
+	font-size: 14px;
+	font-weight:bold;
+}
+.content_content{
+	width: 1250px;
+	height: 500px;
+}
+.content_content_own{
+	width: 250px;
+	height: 400px;
+	background-image: url(../images/denglu9.png);
+	float: left;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	left: -230px;
+}
+.content_own_left{
+	width: 250px;
+	height: 400px;
+	float: left;
+}
+.content_own_left1{
+	font-size: 20px;
+}
+.content_own_left2{
+	font-size: 16px;
+	color: #D2691E;
+}
+.content_own_left2 img{
+	position: relative;
+	left: -45px;
+	top: -5px;
+}
+.content_own_left3{
+	list-style:none;
+	position: relative;
+	left: -20px;
+}
+.content_own_left3 a{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 35px;
+	color: #5F9EA0;
+}
+.content_own_left3 a:hover{
+	display: block;
+	background-color: #87CEFA;
+	color: #FF8C00; 
+}
+.content_news{
+	width: 600px;
+	float: left;
+	position: relative;
+	left: -120px;
+	top: 30px;
+}
+.contetnt_news_title{
+	color: #32CD32;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	left: 80px;
+}
+.contetnt_news_content{
+	width: 900px;
+	font-size: 16px;
+	text-indent: 2em;
+	line-height: 30px;
+	position: relative;
+	left: -50px;
+}
+.content_buttom{
+	width: 900px;
+}
+.content_buttom_img1{
+	position: relative;
+	left: 310px;
+	top: 10px;
+}
+.content_buttom_biaodan{
+	position: relative;
+	left: 300px;
+	top: 30px;
+}
+.content_buttom_p{
+	font-size: 16px;
+	font-weight: bold;
+}
+.content_buttom_text{
+	width: 800px;
+	height: 100px;
+}
+.content_buttom_img{
+	position: relative;
+	top: -20px;
+}
+.content_buttom_button{
+	float: right;
+	font-size: 16px;
+	background-color: #1E90FF;
+	width: 80px;
+	height: 30px;
+}
+.content_buttom_liebiao{
+	position: relative;
+	left: 320px;
+	top: 80px;
+}
+.content_buttom_name{
+	font-size: 16px;
+	font-weight: bold;
+}
+.content_button_neirong{
+	text-indent: 3em;
+}
+.content_button_data{
+	text-indent: 3em;
+}
+.content_button_data span{
+	float: right;
+}
+#footer{
+	margin: auto;
+	width: 1250px;
+	height: 120px;
+	background-color: #FAF0E6;
+}
+.footer_ul{
+	list-style: none;
+	text-align: center;
+}
+.footer_ul a{
+	color: #D2691E;
+}
